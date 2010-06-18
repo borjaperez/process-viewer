@@ -21,7 +21,7 @@ class ejercicio(object):
 		#self.radiobutton = builder.get_object("myprocesses")
 		
 
-		self.checkbutton = builder.get_object("withouttty")
+		#self.checkbutton = builder.get_object("withouttty")
 		
 
 		

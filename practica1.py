@@ -18,10 +18,10 @@ class ejercicio(object):
 		self.button = builder.get_object("processes")
 		self.button.connect("clicked", self.get_processes)
 
-		#self.radiobutton = builder.get_object("myprocesses")
+		self.radiobutton = builder.get_object("myprocesses")
 		
 
-		#self.checkbutton = builder.get_object("withouttty")
+		self.checkbutton = builder.get_object("withouttty")
 		
 
 		

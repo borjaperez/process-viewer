@@ -15,8 +15,8 @@ class ejercicio(object):
 		self.button = builder.get_object("quit")
 		self.button.connect("clicked", lambda w: gtk.main_quit())
 
-		self.button = builder.get_object("processes")
-		self.button.connect("clicked", self.get_processes)
+		#self.button = builder.get_object("processes")
+		#self.button.connect("clicked", self.get_processes)
 
 		self.radiobutton = builder.get_object("myprocesses")
 		
